@@ -30,4 +30,10 @@ def reduce_to_all_true(arr)
     return true
 end
 
+def reduce_to_any_true(arr)
+  arr.each do |ele|
+    return true if true
+  end
+  
+end
 
