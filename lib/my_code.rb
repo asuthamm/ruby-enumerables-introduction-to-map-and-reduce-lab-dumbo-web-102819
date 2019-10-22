@@ -24,7 +24,9 @@ def reduce_to_total(arr,start=0)
 end
 
 def reduce_to_all_true(arr)
-  arr.reduce { |ele| !!ele } 
+  arr.each do |ele|
+    if !!
+  end
 end
 
 
