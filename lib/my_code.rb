@@ -18,10 +18,10 @@ def map_to_square(arr)
   arr_out
 end
 
-# def reduce_to_total(arr)
-#   result = arr.reduce { |ele, sum| sum += ele  }
-#   result
-# end
+def reduce_to_total(arr)
+  result = arr.reduce { |ele, sum| sum += ele  }
+  result
+end
 
 def reduce_to_total(arr,start)
   result = arr.reduce { |ele, sum| sum += ele  } 
