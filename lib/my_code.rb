@@ -29,6 +29,6 @@ def reduce_to_total2(arr,start)
 end
 
 def reduce_to_all_true(arr)
-
+  arr.reduce { |ele| sum += ele  } 
 
 end
