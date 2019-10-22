@@ -25,7 +25,7 @@ describe 'my own map-like methods' do
       expect(map_to_square([1, 2, 3, -9])).to eq([1, 4, 9, 81])
     end
   end
-# end
+end
 
 describe 'my own reduce-like methods' do
   describe "reduce_to_total returns a running total when not given a starting point" do
