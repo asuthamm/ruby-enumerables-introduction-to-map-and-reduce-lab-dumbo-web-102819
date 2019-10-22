@@ -25,7 +25,7 @@ end
 
 def reduce_to_all_true(arr)
   arr.each do |ele|
-    if !!
+    return false if !ele
   end
 end
 
