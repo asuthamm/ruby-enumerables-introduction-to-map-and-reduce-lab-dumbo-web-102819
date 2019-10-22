@@ -34,6 +34,6 @@ def reduce_to_any_true(arr)
   arr.each do |ele|
     return true if true
   end
-  
+    return false
 end
 
