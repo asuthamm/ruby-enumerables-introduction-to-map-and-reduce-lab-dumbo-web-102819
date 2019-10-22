@@ -28,6 +28,3 @@ def reduce_to_all_true(arr)
 end
 
 
-def reduce_to_all_false(arr)
-   arr.reduce { |ele| !ele if ele == false  }
-end
