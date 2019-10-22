@@ -32,3 +32,8 @@ def reduce_to_all_true(arr)
   arr.reduce { |ele| !!ele  } 
 
 end
+
+
+def reduce_to_all_false(arr)
+  
+end
