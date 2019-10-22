@@ -27,3 +27,8 @@ def reduce_to_total2(arr,start)
   result = arr.reduce { |ele, sum| sum += ele  } 
   result + start
 end
+
+def reduce_to_all_true(arr)
+
+
+end
