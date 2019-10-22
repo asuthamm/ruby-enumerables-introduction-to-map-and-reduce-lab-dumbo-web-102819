@@ -9,5 +9,6 @@ def map_to_no_change(arr)
 end
 
 def map_to_double(arr)
-  arr_out
+  arr_out = arr.map { |ele| ele*2 }
+  arr
 end
