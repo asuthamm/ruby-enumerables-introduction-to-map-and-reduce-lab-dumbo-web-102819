@@ -18,12 +18,12 @@ def map_to_square(arr)
   arr_out
 end
 
-# def reduce-like(arr)
-#   result = arr.reduce { |ele, sum| sum += ele  }
-#   result
-# end
+def reduce-like(arr)
+  result = arr.reduce { |ele, sum| sum += ele  }
+  result
+end
 
-# def reduce_to_total(arr,start)
-#   result = arr.reduce { |ele, sum| sum += ele  }
-#   result + start
-# end
+def reduce_to_total(arr,start)
+  result = arr.reduce { |ele, sum| sum += ele  }
+  result + start
+end
