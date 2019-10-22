@@ -3,5 +3,6 @@ def map_to_negativize(arr)
 end
 
 def map_to_no_change(arr)
-  arr.map { |ele| ele }
+  arr_out = arr.map { |ele| ele }
+  arr_out
 end
