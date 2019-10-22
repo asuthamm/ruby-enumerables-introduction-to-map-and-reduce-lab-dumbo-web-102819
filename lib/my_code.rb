@@ -25,5 +25,5 @@ end
 
 def reduce_to_total(arr,start)
   result = arr.reduce { |ele, sum| sum += ele  }
-  result + start
+  return result + start
 end
