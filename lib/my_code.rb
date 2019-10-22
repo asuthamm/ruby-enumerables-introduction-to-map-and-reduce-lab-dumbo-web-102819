@@ -10,5 +10,5 @@ end
 
 def map_to_double(arr)
   arr_out = arr.map { |ele| ele*2 }
-  arr
+  arr_out
 end
