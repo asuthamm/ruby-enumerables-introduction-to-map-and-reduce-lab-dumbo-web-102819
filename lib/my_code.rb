@@ -29,10 +29,10 @@ def reduce_to_total2(arr,start)
 end
 
 def reduce_to_all_true(arr)
-  arr.reduce { |ele| !!ele  } 
+  arr.reduce { |ele| !!ele if ele == true } 
 end
 
 
 def reduce_to_all_false(arr)
-   arr.reduce { |ele| !ele  }
+   arr.reduce { |ele| !ele if ele == false  }
 end
