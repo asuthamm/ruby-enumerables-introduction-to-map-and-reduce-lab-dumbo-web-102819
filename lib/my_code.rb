@@ -34,5 +34,5 @@ end
 
 
 def reduce_to_all_false(arr)
-  
+   arr.reduce { |ele| !ele  }
 end
