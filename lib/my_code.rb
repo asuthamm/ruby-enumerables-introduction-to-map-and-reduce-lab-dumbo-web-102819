@@ -32,7 +32,7 @@ end
 
 def reduce_to_any_true(arr)
   arr.each do |ele|
-    return true if true
+    return true if ele
   end
     return false
 end
