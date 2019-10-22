@@ -24,6 +24,6 @@ def reduce_like(arr)
 end
 
 def reduce_to_total(arr,start)
-  result = arr.reduce { |ele, sum| sum += ele  }
-  return result + start
+  result = arr.reduce { |ele, sum| sum += ele  } + start
+  # return result
 end
